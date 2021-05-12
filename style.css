@@ -1,19 +1,70 @@
-.header{ 
-    
+/*header  */
+.header img {
+    float: left;
+    background: #555;
   }
 
 
-
-
-
-.footer-images {
-    align-items:  center;
+.img2 {
+    float: right;
+    
 }
+.img1 {
+    float: right;
+    padding: 21px;
+    }
+    
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+.header h2{
+    font-style: italic;
+}
+
+/*body  */
+
+
+
+
+
+
+
+
+
+/*footer  */
+
+
+.footer {
+    align-items: center;
+}
+
 .footer p { 
     color:grey;
     text-align: center;
     font-size: 14px;  
-    margin: 0;  
-  }
+    margin: 20;  
+    line-height: 1.5;
+    
+}
+.footer hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid grey;
+    /* border-bottom:1px solid grey; */
+    margin:25px 0px;
+    
+}
+#footerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
   
 
