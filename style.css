@@ -1,40 +1,78 @@
+body {
+  margin: 0 auto;
+  width: 90%;
+}
+
+
 /*header  */
-.header img {
-    float: left;
-    background: #555;
-  }
+/* image of fork and knife*/
 
-
-.img2 {
-    float: right;
-    
+.delicious{
+  display: inline-block;
+  margin-top: 2em;
 }
-.img1 {
-    float: right;
-    padding: 21px;
-    }
-    
+
+  /*Delicious*/
+h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-style: italic;
+}
+
+h5{
+  margin-left: 7px;
+  font-family: monospace;
+}
+
+
+header ul {
+  float: right;
+  margin-top: 2em;
+  margin-left: 10px;
+
+}
+
+header ul li {
+  display: inline-block;
+
+}
   
-  .header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-  }
 
-.header h2{
-    font-style: italic;
-}
+
+
 
 /*body  */
 
+hr {
+  width: 100%;
+  height: 10px;
+  color: grey;
+}
+h1{
+  font-size: 30px;
+  margin-top: 1em;
+}
+h6{
+  color: grey; 
+  font-family:monospace
+}
+
+#grocery {
+  background: url('IMG/list-bg.png');
 
 
+}
 
+  .list1 {
+    float: left;
+    width: 300px;
+margin-left: 130px;
+    list-style: none;
 
-
-
-
-
+    }
+.list2{
+  list-style: none;
+}
+    
 /*footer  */
 
 
